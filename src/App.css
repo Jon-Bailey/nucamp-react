@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .App-logo {
@@ -98,3 +98,6 @@ h2 {
   background-color: #901CAD;
 }
 
+#partnerImage {
+  max-width:150px;
+}
