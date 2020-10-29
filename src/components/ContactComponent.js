@@ -26,7 +26,7 @@ class Contact extends Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    validate(firstname, lastName, phoneNum, email) {
+    validate(firstName, lastName, phoneNum, email) {
 
         const errors = {
             firstName: '',
@@ -113,6 +113,7 @@ class Contact extends Component {
                             invalid={errors.firstName}
                             onBlur={this.handleBlur("firstName")}
                             onChange={this.handleInputChange} />
+                        <FormFeedback>{errors.firstName}</FormFeedback>
                     </Col>
                 </FormGroup>
                 <FormGroup row>
@@ -124,6 +125,7 @@ class Contact extends Component {
                             invalid={errors.firstName}
                             onBlur={this.handleBlur("lastName")}
                             onChange={this.handleInputChange} />
+                        <FormFeedback>{errors.lastName}</FormFeedback>
                     </Col>                        
                 </FormGroup>
                 <FormGroup row>
@@ -135,6 +137,7 @@ class Contact extends Component {
                             invalid={errors.firstName}
                             onBlur={this.handleBlur("phoneNum")}
                             onChange={this.handleInputChange} />
+                        <FormFeedback>{errors.phoneNum}</FormFeedback>
                     </Col>
                 </FormGroup>
                 <FormGroup row>
@@ -146,6 +149,7 @@ class Contact extends Component {
                             invalid={errors.firstName}
                             onBlur={this.handleBlur("email")}
                             onChange={this.handleInputChange} />
+                        <FormFeedback>{errors.email}</FormFeedback>
                     </Col>
                 </FormGroup>
                 <FormGroup row>
