@@ -23,7 +23,7 @@ class Header extends Component {
         return (
             <React.Fragment>
                 <Jumbotron fluid>
-                    <div className="container">
+                    <div className="container text-center">
                         <div className="row">
                             <div className="col">
                                 <h1>NuCamp</h1>

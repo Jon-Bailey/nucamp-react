@@ -20,7 +20,7 @@ function Directory(props) {
 
     const directory = props.campsites.map(campsite => {
         return (
-            <div key={campsite.id} className="col-md-5 m-1 m-auto p-2">
+            <div key={campsite.id} className="col-md-5 m-1 p-3 text-center">
                 <RenderDirectoryItem campsite={campsite} onClick={props.onClick} />
             </div>
         );
