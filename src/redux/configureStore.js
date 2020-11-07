@@ -1,4 +1,4 @@
-import {createStore, combineReducers, applyMIddleware, applyMiddleware} from 'redux';
+import {createStore, combineReducers, applyMiddleware} from 'redux';
 import { Campsites } from './campsites';
 import { Comments } from './comments';
 import { Partners } from './partners';
